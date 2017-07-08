@@ -4,7 +4,7 @@ This Cloudformation script creates a Lambda function returns the Prefix List det
 
 The Lambda expects to receive an event of the form:
 
-```json
+```
 {
 	"ServiceName" : "s3" | "dynamodb",
 	"RegionName" : <A valid AWS Region name>,
