@@ -16,6 +16,18 @@ If `RegionName` is omitted, then the region of the Lambda is used.
 
 If `Keys` is omitted, then all details for the matched Prefix List items are returned.
 
+The Lambda returns the following (for requested keys `Key1` and `Key2`):
+
+```
+[
+	{
+		"PrefixListName" : "Name of the service for which this is the prefix",
+		"Key1" : ...,
+		"Key2" : ...
+	}
+]
+```
+
 The script creates the following:
 
 ![alt text](https://github.com/gford1000-aws/lambda-prefix-lists/blob/master/PrefixList.png "Script per designer")
